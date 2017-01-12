@@ -20,11 +20,19 @@
 @media (max-width: 1170px) {
   .chamberContainerWraper .chamberContainer__nav--right {
     left: 593px;
+
+  }
+  .chamberContainer>li:nth-of-type(1) .chamberCircle__image {
+    max-height: inherit;
   }
 }
 
 @media (max-width: 950px) {
   .chamberContainerWraper .chamberContainer__nav--right {
     left: 519px;
+  }
+
+  .chamberContainer__content {
+    top: 338px;
   }
 }
