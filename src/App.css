@@ -1,0 +1,184 @@
+.chamber__wrap {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  height: 1170px;
+  background: url(./img/black-brushed-metal.jpg) no-repeat center 0;
+  background-size: cover;
+}
+
+.chamber {
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 1170px;
+  height: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(./img/gun-chamber.png) no-repeat 50%;
+  background-size: cover;
+  transition: transform 2s;
+}
+
+.chamber li {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.chamber li img {
+  border-radius: 50%;
+  margin: 3px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.circle__1 {
+  top: 82px;
+  left: 434px;
+  transform: rotate(0deg);
+}
+.circle__2 {
+  top: 255px;
+  left: 741px;
+
+  transform: rotate(60deg);
+}
+.circle__3 {
+  top: 612px;
+  left: 742px;
+  transform: rotate(120deg);
+}
+.circle__4 {
+  top: 788px;
+  left: 438px;
+  transform: rotate(180deg);
+}
+.circle__5 {
+  top: 612px;
+  left: 132px;
+  transform: rotate(240deg);
+}
+.circle__6 {
+  top: 260px;
+  left: 130px;
+  transform: rotate(300deg);
+}
+
+.desc {
+  position: absolute;
+  left: 0;
+  top: 500px;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  pointer-events: none;
+}
+
+.desc p {
+  color: white;
+  max-width: 300px;
+  margin: auto;
+}
+
+.desc__title {
+  font-size: 20px;
+  color: white;
+}
+
+.desc__link {
+  width: 30px;
+  height: 30px;
+  pointer-events: all;
+}
+
+@media (max-width: 1170px) {
+  .desc {
+    top: 314px;
+  }
+
+  .chamber__wrap,
+  .chamber {
+    width: 936px;
+    height: 936px;
+  }
+  .chamber li {
+    width: 240px;
+    height: 240px;
+  }
+  .circle__1 {
+    top: 65px;
+    left: 346px;
+  }
+  .circle__2 {
+    top: 207px;
+    left: 593px;
+  }
+  .circle__3 {
+    top: 482px;
+    left: 591px;
+  }
+  .circle__4 {
+    top: 631px;
+    left: 346px;
+  }
+  .circle__5 {
+    top: 489px;
+    left: 102px;
+  }
+  .circle__6 {
+    top: 211px;
+    left: 102px;
+  }
+}
+
+@media (max-width: 950px) {
+  .desc {
+    top: 254px;
+  }
+
+  .chamber,
+  .chamber__wrap {
+    width: 819px;
+    height: 819px;
+  }
+
+  .chamber li {
+    width: 210px;
+    height: 210px;
+  }
+
+  .circle__1 {
+    top: 57px;
+    left: 303px;
+  }
+  .circle__2 {
+    top: 179px;
+    left: 517px;
+  }
+  .circle__3 {
+    top: 424px;
+    left: 522px;
+  }
+  .circle__4 {
+    top: 551px;
+    left: 306px;
+  }
+  .circle__5 {
+    top: 430px;
+    left: 93px;
+  }
+  .circle__6 {
+    top: 184px;
+    left: 90px;
+  }
+}
