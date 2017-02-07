@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { itemData } from './config';
 import linkImg from './img/link.svg';
+import Snow from './component/Snow';
 
 class App extends Component {
   state = {
@@ -55,6 +56,7 @@ class App extends Component {
           </h3>
           <p>{desc}</p>
         </div>
+        <Snow />
       </div>
     );
   }
