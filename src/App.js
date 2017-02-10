@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { itemData } from './config';
 import linkImg from './img/link.svg';
-import Snow from './component/Snow';
+import Snow from 'fall-snow';
+
 
 class App extends Component {
   state = {
