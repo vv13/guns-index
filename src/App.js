@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { itemData } from './config';
-import linkImg from './img/link.svg';
-import Snow from 'fall-snow';
 
 
 class App extends Component {
@@ -52,12 +50,9 @@ class App extends Component {
           </ul>
         </div>
         <div className="desc">
-          <h3 className="desc__title">{name}
-            <a href={link} target="_blank"><img src={linkImg} alt="" className="desc__link" /></a>
-          </h3>
+          <a href={link} target="_blank" className="desc_title">{name}</a>
           <p>{desc}</p>
         </div>
-        <Snow />
       </div>
     );
   }

@@ -1,15 +1,11 @@
 {
-  "name": "test",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "0.8.5"
-  },
   "dependencies": {
-    "fall-snow": "^1.0.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "three": "^0.84.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
