@@ -2,5 +2,5 @@
 
 ```
 $ git clone https://github.com/vv13/guns-index.git
-$ cd guns-index & yarn & yarn start
+$ cd guns-index && yarn && yarn start
 ```
