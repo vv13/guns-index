@@ -2,6 +2,8 @@ html,
 body {
   background: #000;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 .chamber_info {
   text-align: center;
@@ -23,8 +25,8 @@ body {
 
 .chamber {
   flex-shrink: 0;
-  width: 1170px;
-  height: 1170px;
+  width: 936px;
+  height: 936px;
   padding: 0;
   margin: 0;
   background: url(./img/black-brushed-metal.png) no-repeat 50%;
@@ -38,13 +40,13 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 240px;
+  color: #fff;
 }
 
 .chamber_item img {
   border-radius: 50%;
-  margin: 3px;
   max-width: 100%;
   max-height: 100%;
   width: 100%;
@@ -63,74 +65,29 @@ body {
   visibility: visible;
   display: block;
 }
-
 .circle__1 {
-  top: 82px;
-  left: 434px;
-  transform: rotate(0deg);
+  top: 65px;
+  left: 346px;
 }
 .circle__2 {
-  top: 255px;
-  left: 741px;
-
-  transform: rotate(60deg);
+  top: 207px;
+  left: 593px;
 }
 .circle__3 {
-  top: 612px;
-  left: 742px;
-  transform: rotate(120deg);
+  top: 482px;
+  left: 591px;
 }
 .circle__4 {
-  top: 788px;
-  left: 438px;
-  transform: rotate(180deg);
+  top: 631px;
+  left: 346px;
 }
 .circle__5 {
-  top: 612px;
-  left: 132px;
-  transform: rotate(240deg);
+  top: 489px;
+  left: 102px;
 }
 .circle__6 {
-  top: 260px;
-  left: 130px;
-  transform: rotate(300deg);
-}
-
-
-@media (max-width: 1170px) {
-
-  .chamber {
-    width: 936px;
-    height: 936px;
-  }
-  .chamber_item {
-    width: 240px;
-    height: 240px;
-  }
-  .circle__1 {
-    top: 65px;
-    left: 346px;
-  }
-  .circle__2 {
-    top: 207px;
-    left: 593px;
-  }
-  .circle__3 {
-    top: 482px;
-    left: 591px;
-  }
-  .circle__4 {
-    top: 631px;
-    left: 346px;
-  }
-  .circle__5 {
-    top: 489px;
-    left: 102px;
-  }
-  .circle__6 {
-    top: 211px;
-    left: 102px;
-  }
+  top: 211px;
+  left: 102px;
 }
 
 @media (max-width: 950px) {
